@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* imagem lado superior direito*/
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+
+}
+
+/*Quadrado fundo */
+
+.prancheta{
+width: 95%;
+box-shadow: 0px 0px 3rem 0.1em   rgba(255, 255, 255, 0.39);
+border-radius: 5px;
+border: none;
+border-bottom: 1px solid white;
+border-top: 1px solid white;
+margin: 3% 0;
+background-color: rgb(36, 35, 35);
+}
+
+/*Caixa do cabeçalho*/
+
+
+
+
+
+/*IMAGEM SUPERIOR ESQUERDA*/
+
+.boneco{
+color: rgb(255, 252, 240);
+font-size: 25px;
+text-align: center;
+margin-top: 1rem;
+}
+
+
+/*NOME ABAIXO DA IMAGEM SUPERIOR ESQUERDA*/
+
+
+
+/*CAIXA DOS BOTOES SUPERIORES A ESQUERDA*/
+
+.boxbotoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+/*CONFIG BOTOES SUPERIOR ESQUERDO*/
+
+.botoes{
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 5%;
+  width: 15rem;
+  height: 3rem;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+
+
+}
+
+.botoes:hover {
+  background-color:rgb(229, 255, 0);
+  color: black;
+}
+
+
+/*CAIXA DO CONJUNTO DA BARRA E TEXTO PESQUISAR*/
+
+.boxbarra{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+
+/*BOTAO PESQUISA TEXTO */
+
+
+.barrapesquisa{
+color: white ;
+cursor: pointer;
+text-align: center;
+margin-right: 5%;
+margin-top: 2%;
+transition: background-color 0.3s ease;
+border-radius: 5px;
+letter-spacing: 2px;
+display: flex;
+
+}
+
+.lupa{
+
+margin-left: 3%;
+text-align: center;
+padding: auto;
+
+}
+
+.barrapesquisa:hover{
+  color: rgb(229, 255, 0);
+
+}
+/*CAIXA DE IMAGENS E TEXTO*/
+
+.boximgtexto{
+  text-align: center;
+  color: aliceblue;
+  margin:  2%;
+
+}
+
+.textoimagem {
+  font-size: 2rem;
+  position: absolute;
+  letter-spacing: 2px;
+  background-color: #000000a6;
+  padding: 1%;
+  border-radius: 2rem;
+
+  }
+
+.imagem{
+  display: flex;
+  align-items:  center;
+  justify-content:center;
+  border: #ffffff 2px solid;
+}
+
+
+.imagem img{
+  filter: brightness(50%);
+  border-radius: 2rem;
+  max-height: 100vh;
+  
+
+  
+}
+
+.imagem img:hover{
+filter: brightness(70%);
+}
+
+
+.txt{
+  margin-top: 5%;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+/*CAIXA DO RODAPE BOTOES INFERIORES*/
+
+.boxrodape{
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+
+/*BOTOES INFERIORES*/
+
+.iconerodape{
+font-size: 3rem;
+color: aliceblue;
+cursor: pointer;
+background: none;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.iconerodape:hover{
+  color: rgb(229, 255, 0);
+}
+
+/* ESTILIZAÇÃO DA BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+   width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #474747; 
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff; 
+  border-radius: 5px;
+
+  
+}
+
+
+
+
